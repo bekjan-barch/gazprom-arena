@@ -20,7 +20,7 @@ other pirates. I will defeat all of them and know all secrets of this world!
 3. Exist
 
 ### Code examples
-'''<b>Новый текст</b>
+''' <b>Новый текст</b>
    <strong>Новый текст</strong>
    <i>Новый текст</i>
    <em>Новый текст</em>
@@ -57,7 +57,7 @@ other pirates. I will defeat all of them and know all secrets of this world!
        <li>Элемент списка 2</li>
        <li>Элемент списка 3</li>
        <li>Элемент списка 4</li>
-   </ol>'''
+   </ol> '''
 
 ### My Experience
 **I have been studying web-coding for 1 month**
