@@ -141,15 +141,13 @@
         line-height: 18px;
     }
     .smart-projects__box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 15px 0;
+        text-align: center;
+        padding: 15px 24px;
     }
     .smart-projects__title {
         font-size: 28px;
-        line-height: 48px;
+        line-height: 32px;
+        margin-bottom: 10px;
     }
     .col-2 {
         width: 100%;
@@ -230,7 +228,10 @@
 }
 @media (max-width: 480px) {
     .container{
-        max-width: 360px;
+        max-width: 300px;
+    }
+    .row{
+        margin: 0;
     }
     .first-screen__title {
         font-size: 28px;
@@ -266,7 +267,7 @@
     }
     .col-3{
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     .project-box__img {
         margin-bottom: 36px;
@@ -278,8 +279,8 @@
         font-size: 16px;
         line-height: 20px;
     }
-    #building {
-        height: 403px;
+    .col-4-building {
+        width: 100%;
     }
     #questions{
         padding: 50px 0;
@@ -328,5 +329,9 @@
     }
     .footer-box {
         font-size: 8px;
+    }
+    .col-4 {
+        width: 25%;
+        padding: 0px 8px;
     }
 }

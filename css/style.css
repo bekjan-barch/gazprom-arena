@@ -212,9 +212,15 @@ header{
     text-transform: uppercase;
 }
 #building{
+    padding: 0;
+}
+.col-4-building{
+    width: 25%;
+}
+.col-4-building img{
+    object-fit: cover;
     width: 100%;
-    height: 814px;
-    background: #000 url(../images/building-2.png) repeat top;
+    height: 100%;
 }
 #questions{
     padding: 150px 0;
@@ -306,6 +312,9 @@ header{
 .contacts-box{
     text-transform: uppercase;
     text-align: center;
+}
+.contacts-box-img{
+    height: 50px;
 }
 .contacts-title{
     font-size: 24px;
