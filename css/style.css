@@ -214,6 +214,10 @@ header{
 #building{
     padding: 0;
 }
+.row-building{
+    display: flex;
+    flex-wrap: wrap;
+}
 .col-4-building{
     width: 25%;
 }
